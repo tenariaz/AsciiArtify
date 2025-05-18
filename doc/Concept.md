@@ -64,7 +64,7 @@ kubectl expose deployment hello-world --type=NodePort --port=8080
 kubectl get svc
 ```
 
-![Image](.demo.gif)
+![Image](demo.gif)
 
 ## Висновки та рекомендації
 
