@@ -55,43 +55,15 @@
 
 Для демонстрації використано **k3d** як рекомендований інструмент.
 
-1. Встановлення:
+
 ```bash
 brew install k3d          # або curl -s https://raw.githubusercontent.com/k3d-io/k3d/main/install.sh | bash
-```
-2. Створення кластеру:
-```bash
 k3d cluster create asciiartify
-```
-3. Розгортання застосунку:
-```bash
 kubectl create deployment hello-world --image=k8s.gcr.io/echoserver:1.4
 kubectl expose deployment hello-world --type=NodePort --port=8080
-```
-4. Перевірка:
-```bash
 kubectl get svc
 ```
-5. Відео або анімація:
-
-
-
-
-
-
-Повна YAML-конфігурація: demo/k3d-hello.yaml
-
-Висновки та рекомендації
-Інструмент	Рекомендовано для	Не підходить для
-minikube	Ознайомлення, локальна розробка з UI	CI, швидкі тести
-kind	CI/CD, автоматизація, тестування Helm	Повноцінні PoC
-k3d	PoC, локальне та швидке розгортання багатовузлового кластеру	Розгортання з GUI або Dashboard
-
-Рекомендація для AsciiArtify:
-Використовувати k3d для побудови PoC, завдяки його швидкості, підтримці багатовузлових кластерів та гнучкості. Він також сумісний із Podman, що зменшує залежність від ліцензії Docker.
-
-Додатково
-Документація k3d: https://k3d.io/
+./demo.gif
 
 ## Висновки та рекомендації
 
