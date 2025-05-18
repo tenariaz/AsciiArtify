@@ -63,7 +63,7 @@ kubectl create deployment hello-world --image=k8s.gcr.io/echoserver:1.4
 kubectl expose deployment hello-world --type=NodePort --port=8080
 kubectl get svc
 ```
-.doc/demo.gif
+![Image](.doc/demo.gif)
 
 ## Висновки та рекомендації
 
