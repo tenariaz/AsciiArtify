@@ -6,3 +6,4 @@
  - auto crate namespace
  - Server-Side Apply
  
+ ![Image](argocd-auto.gif)
