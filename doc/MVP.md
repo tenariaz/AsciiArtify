@@ -1,4 +1,4 @@
-
+ ![Image](argocd.gif)
 ## name demo
 ## https://github.com/tenariaz/go-demo-app
 ## namespace demo
@@ -6,4 +6,4 @@
  - auto crate namespace
  - Server-Side Apply
  
- ![Image](argocd-auto.gif)
+ ![Image](argocd_auto.gif)
