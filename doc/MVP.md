@@ -1,4 +1,4 @@
- ![Image](argocd.gif)
+
 ## name demo
 ## https://github.com/tenariaz/go-demo-app
 ## namespace demo
